@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <!-- pas touche à cette ligne -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/stylepop.css">
+    <title>Pop</title>
+    <link rel="shortcut icon" type="image" href="css/img/favicon.gif">
+    <!--typooooo-->
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Blog musical</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.php">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page1.html">Metal</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Pop<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Nous contacter</a>
+        </li>
+      </ul>
+      <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Recherche" aria-label="Recherche">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Chercher</button>
+      </form>
+    </div>
+</nav>
+
+<header>
+  <div class="overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="css/header_video.mp4" type="video/mp4">
+  </video>
+  <div class="container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+        <h1 class="display-3">La pop française</h1>
+        <p class="lead mb-0">La nouvelle génération</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<!-- pck sinon sur firefox ça plante et tout... c'est pas fou -->
+<div class="hidden">
+
+      <div class="embed-responsive embed-responsive-4by3">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kRDJ5FnxZHg"></iframe>
+        </div>
+
+</div>
+<!--oupsy, vous n'avez rien vuuuuu-->
+
+<!-- transition-->
+
+<div class="row transition">
+  <div class="col-sm">
+  </div>
+  <div class="col-sm">
+    <center>
+      <img src="css/img/fleche.gif" alt="down_please" id="gif"/>
+    </center>
+  </div>
+  <div class="col-sm">
+  </div>
+</div>
+
+<!--contenu en 2colonnes encore-->
+
+<div class="row">
+  <div class="col-sm">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" width="859" height="483" src="https://www.youtube.com/embed/M_d36biY0zE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="col-sm text">
+    <div class="title">
+        <h2 id="mimosa">
+          Queen Mimosa 3
+        </h2>
+      </div>
+      <div>
+       <p class="description">
+         C'est <bold> très </bold> particulier. Très influencé par la j-pop, on retrouve beaucoup d'excentricité chez cet artiste. Ca ne plait pas à tout le monde.
+       </p>
+       <a class="btn btn-secondary" href="https://youtu.be/M_d36biY0zE" role="button">Si la vidéo ne fonctionne pas...</a>
+       <br/>
+       <br/>
+       <a class="btn btn-danger" href="https://www.youtube.com/channel/UCZVB-01mR4Q7O_uiX1gRAlQ" role="button">Chaine youtube officielle</a>
+        <br/>
+        <br/>
+        <a class="btn btn-dark" href="https://www.konbini.com/fr/musique/a-la-rencontre-queen-mimosa-3-poop-pop-pute/" role="button">Plus d'infos ici</a>
+     </div>
+  </div>
+</div>
+
+<!-- seconde ligne -->
+
+<div class="row">
+  <div class="col-sm text">
+    <div class="title">
+        <h2 id="taxi">
+          THERAPIE TAXI
+        </h2>
+      </div>
+      <div>
+       <p class="description">
+         Un groupe de potes qui racontent leurs déboires amoureux. Leur premier album convient parfaitement pour oublier son ex !
+       </p>
+       <a class="btn btn-secondary" href="https://www.youtube.com/watch?v=EKB_vBbktBY" role="button">Si la vidéo ne fonctionne pas...</a>
+       <br/>
+       <br/>
+       <a class="btn btn-danger" href="https://www.youtube.com/channel/UCw6eCoyUf6sOa5L6fouZO4w" role="button">Chaine youtube officielle</a>
+        <br/>
+        <br/>
+        <a class="btn btn-dark" href="https://fr.wikipedia.org/wiki/Therapie_Taxi" role="button">Plus d'infos ici</a>
+     </div>
+  </div>
+  <div class="col-sm">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" width="859" height="483" src="https://www.youtube.com/embed/EKB_vBbktBY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<!--troisième ligne-->
+<div class="row">
+  <div class="col-sm">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" width="859" height="483" src="https://www.youtube.com/embed/Cnmd7B81h2c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="col-sm text">
+    <div class="title">
+        <h2 id="suzane">
+          Suzane
+        </h2>
+      </div>
+      <div>
+       <p class="description">
+         Chanteuse originaire d'Avignon, j'ai réussi à avoir un autographe. Ses chanson ont été écrite lorsqu'elle travaillait en tant que serveuse à Paris. Les paroles sont lourdes de sens et peuvent remettre en question votre vision du monde.
+       </p>
+       <a class="btn btn-secondary" href="https://www.youtube.com/watch?v=Cnmd7B81h2c" role="button">Si la vidéo ne fonctionne pas...</a>
+       <br/>
+       <br/>
+       <a class="btn btn-danger" href="https://www.youtube.com/channel/UCZVB-01mR4Q7O_uiX1gRAlQ" role="button">Chaine youtube officielle</a>
+        <br/>
+        <br/>
+        <a class="btn btn-dark" href="https://fr.wikipedia.org/wiki/Suzane" role="button">Plus d'infos ici</a>
+     </div>
+  </div>
+</div>
+
+<!-- pu le temps de chercher-->
+<div class="row">
+  <div class="col-sm">
+  </div>
+  <div id="gif" class="col-sm">
+    <center>
+      <img src="css/img/xoxo.gif"/>
+    </center>
+  </div>
+  <div class="col-sm">
+  </div>
+</div>
+
+
+
+<!-- pas touche à ce bloc là -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+
+
+</body>
+</html>

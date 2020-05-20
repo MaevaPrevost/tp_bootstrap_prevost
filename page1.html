@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <!-- pas touche à cette ligne -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/stylemetal.css">
+    <title>Metal</title>
+    <link rel="shortcut icon" type="image" href="css/img/favicon.gif">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Blog musical</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.php">Accueil</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="page1.html">Metal
+            <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page2.html">Pop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Nous contacter</a>
+        </li>
+      </ul>
+      <form class="form-inline mt-2 mt-md-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Recherche" aria-label="Recherche">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Chercher</button>
+      </form>
+    </div>
+</nav>
+<br/>
+<br/>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="css/img/rammstein.jpg" alt="Rammstein">
+       <div class="carousel-caption d-none d-md-block">
+        <h5>Rammstein</h5>
+        <p>Groupe de métal indus' Allemand</p>
+       </div>
+      </div>
+    <div class="carousel-item">
+      <img src="css/img/mariabrink.jpg" alt="Maria Brink">
+        <div class="carousel-caption d-none d-md-block">
+        <h5>IN THIS MOMENT</h5>
+        <p>La <i>Lady Gaga</i> du métal</p>
+       </div>
+    </div>
+    <div class="carousel-item">
+      <img src="css/img/jinjer.jpg" alt="Jinjer">
+       <div class="carousel-caption d-none d-md-block">
+        <h5>Jinjer</h5>
+        <p>Une voix surprenante</p>
+       </div>
+    </div>
+    <div class="carousel-item">
+      <img src="css/img/ultravomit.jpg" alt="Ultra Vomit">
+       <div class="carousel-caption d-none d-md-block">
+        <h5>Ultra Vomit</h5>
+        <p>Groupe de métal parodique français</p>
+       </div>
+    </div>
+    <div class="carousel-item">
+      <img src="css/img/alienweaponry.jpg" alt="Alien Weaponry">
+       <div class="carousel-caption d-none d-md-block">
+        <h5>Alien Weaponry</h5>
+        <p>Trois blonds fond du métal maori</p>
+       </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
+<!--première ligne-->
+
+
+  <div class="row row_gauche">
+    <div class="col-sm text_col">
+      <div class="title">
+        <h2>
+          Rammstein, mon premier groupe de métal
+        </h2>
+      </div>
+      <div>
+       <p class="description">
+         C'est au collège que j'ai découvert ce groupe par hasard, et depuis je ne m'en passe plus. Les paroles ne sont claiiiirement pas très correcte mais elles racontent des histoire. Les clip sont extrèmement travaillés. Je vous laisse avec une de mes chansons favorite ainsi qu'un lien vers leurs chaine Youtube.
+       </p>
+     </div>
+      <div>
+        <br/>
+        <figure>
+          <figcaption>Rammstein-Weit weg :</figcaption>
+          <audio controls>
+            <source src="css/music/Rammstein_Weit-weg.mp3" type="audio/mpeg">
+              <p>Votre navigateur ne prend pas en charge l'audio HTML. Voici un <a href="css/music/Rammstein_Weit-weg.mp3">lien vers le fichier audio</a> pour le télécharger.</p>
+          </audio>
+        </figure>
+        <br/>
+        <br/>
+        <a class="btn btn-outline-danger" href="https://www.youtube.com/channel/UCYp3rk70ACGXQ4gFAiMr1SQ" role="button">Chaine youtube officielle</a>
+        <br/>
+        <br/>
+        <a class="btn btn-outline-light" href="https://www.rammsteinworld.com/rammstein/histoire" role="button">Plus d'infos ici</a>
+     </div>
+   </div>
+    <div class="col-sm">
+      <img src="css/img/rammstein_vignette.jpg" class="vignettes" alt="Rammstein">
+    </div>
+  </div>
+
+  <!--fin premiere ligne-->
+
+<!--deuxième ligne-->
+  <div class="row row_droite">
+    <div class="col-sm">
+      <img src="css/img/in_this_moment.png" class="vignettes" alt="in_this_moment">
+    </div>
+
+    <div class="col-sm text_col">
+      <div class="title">
+        <h2>
+          IN THIS MOMENT, aka Maria Brink
+        </h2>
+      </div>
+      <div>
+       <p class="description">
+         Découvert grace à mon tuteur de stage, j'ai eu un réelle coup de foudre pour cette chanteuse. L'esthétisme de ses clips, sa voix, les paroles... Tout est nickel. Sûrement plus abordable visuellement pour certains.
+       </p>
+     </div>
+      <div>
+        <br/>
+        <figure>
+          <figcaption>IN THIS MOMENT-Sex Metal Barbie :</figcaption>
+          <audio controls>
+            <source src="css/music/INTHISMOMENT_sex-metal-barbie.mp3" type="audio/mpeg">
+              <p>Votre navigateur ne prend pas en charge l'audio HTML. Voici un <a href="css/music/INTHISMOMENT_sex-metal-barbie.mp3">lien vers le fichier audio</a> pour le télécharger.</p>
+          </audio>
+        </figure>
+        <br/>
+        <br/>
+        <a class="btn btn-outline-danger" href="https://www.youtube.com/channel/UC3o9YaRy8gc-lMmw_XpqgiQ" role="button">Chaine youtube officielle</a>
+        <br/>
+        <br/>
+        <a class="btn btn-outline-light" href="https://fr.wikipedia.org/wiki/In_This_Moment" role="button">Plus d'infos ici</a>
+     </div>
+   </div>
+  </div>
+
+
+<!--troisième ligne-->
+
+
+  <div class="row row_gauche">
+    <div class="col-sm text_col">
+      <div class="title">
+        <h2>
+          Jinjer, une voix magique
+        </h2>
+      </div>
+      <div>
+       <p class="description">
+         Aussi découverte durant mon stage, j'ai été surprise pas sa technique vocal. Je vous laisse découvrir par vous même...
+       </p>
+     </div>
+      <div>
+        <br/>
+        <figure>
+          <figcaption>Jinjer-Pisces :</figcaption>
+          <audio controls>
+            <source src="css/music/Jinjer_Pisces.mp3" type="audio/mpeg">
+              <p>Votre navigateur ne prend pas en charge l'audio HTML. Voici un <a href="css/music/Jinjer_Pisces.mp3">lien vers le fichier audio</a> pour le télécharger.</p>
+          </audio>
+        </figure>
+        <br/>
+        <br/>
+        <a class="btn btn-outline-danger" href="https://www.youtube.com/channel/UC4BSeEq7XNtihGqI309vhYg" role="button">Chaine youtube officielle</a>
+        <br/>
+        <br/>
+        <a class="btn btn-outline-light" href="https://fr.wikipedia.org/wiki/Jinjer" role="button">Plus d'infos ici</a>
+     </div>
+   </div>
+    <div class="col-sm">
+      <img src="css/img/jinjer_vignette.jpg" class="vignettes" alt="Jinjer">
+    </div>
+  </div>
+
+  <!-- fin troisième ligne -->
+
+  <!-- debut 4 eme -->
+
+  <div class="row row_droite">
+    <div class="col-sm">
+      <img src="css/img/ultra_vomit_vignette.jpg" class="vignettes" alt="ultravomit">
+    </div>
+
+    <div class="col-sm text_col">
+      <div class="title">
+        <h2>
+          Ultra Vomit, une partie de rigolade
+        </h2>
+      </div>
+      <div>
+       <p class="description">
+         Découvert par hasard en écoutant du Rammstein, c'est avec Kammthaar (parodie de rammstein) que je les ai connus. Leur album <i>Panzer Surprise</i> est hilarant. Je vous le conseille fortement.
+       </p>
+     </div>
+      <div>
+        <br/>
+        <figure>
+          <figcaption>Ultra Vomit-Pipi vs Caca :</figcaption>
+          <audio controls>
+            <source src="css/music/ultravomit_pipicaca.mp3" type="audio/mpeg">
+              <p>Votre navigateur ne prend pas en charge l'audio HTML. Voici un <a href="css/music/ultravomit_pipicaca.mp3">lien vers le fichier audio</a> pour le télécharger.</p>
+          </audio>
+        </figure>
+        <br/>
+        <br/>
+        <a class="btn btn-outline-danger" href="https://www.youtube.com/user/UltraVomitOfficiel" role="button">Chaine youtube officielle</a>
+        <br/>
+        <br/>
+        <a class="btn btn-outline-light" href="https://fr.wikipedia.org/wiki/Ultra_Vomit" role="button">Plus d'infos ici</a>
+     </div>
+   </div>
+  </div>
+
+<!--fin quatrieme... On fatigue mais on tiens bon. -->
+<!--debut dernière ligne-->
+
+
+  <div class="row row_gauche">
+    <div class="col-sm text_col">
+      <div class="title">
+        <h2>
+          Alien Weaponry, LE groupe exotique
+        </h2>
+      </div>
+      <div>
+       <p class="description">
+         Aussi découvert durant mon stage, je n'ai jamais entendu quelque chose d'aussi atypique dans l'univers du métal. De plus, on ne s'attend pas à ce style en voyant les membres du groupe. Je vous laisse découvrir.
+       </p>
+     </div>
+      <div>
+        <br/>
+        <figure>
+          <figcaption>Alien Weaponry-Kai Tangata :</figcaption>
+          <audio controls>
+            <source src="css/music/alien_kaitangata.mp3" type="audio/mpeg">
+              <p>Votre navigateur ne prend pas en charge l'audio HTML. Voici un <a href="css/music/alien_kaitangata.mp3">lien vers le fichier audio</a> pour le télécharger.</p>
+          </audio>
+        </figure>
+        <br/>
+        <br/>
+        <a class="btn btn-outline-danger" href="https://www.youtube.com/channel/UCaOaEM1scnWUqXzvyba1Fxw" role="button">Chaine youtube officielle</a>
+        <br/>
+        <br/>
+        <a class="btn btn-outline-light" href="https://www.lemonde.fr/m-moyen-format/article/2018/03/23/en-nouvelle-zelande-les-jeunes-guerriers-du-metal-maori_5275162_4497271.html" role="button">Plus d'infos ici</a>
+     </div>
+   </div>
+    <div class="col-sm">
+      <img src="css/img/alien_vignette.jpg" class="vignettes" alt="Alien Weaponry">
+    </div>
+  </div>
+
+<div class="row">
+  <div class="col-sm">
+  </div>
+  <div id="gif" class="col-sm">
+    <center>
+      <img src="css/img/metal.gif"/>
+    </center>
+  </div>
+  <div class="col-sm">
+  </div>
+</div>
+
+
+
+
+
+<!-- pas touche à ce bloc là -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+
+
+</body>
+</html>
