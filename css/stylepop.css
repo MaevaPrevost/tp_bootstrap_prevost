@@ -1,0 +1,95 @@
+html{
+	overflow-x : hidden;
+}
+
+body {background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://unsplash.com/photos/PDX_a_82obo') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+.display-3 {
+	font-family: 'Permanent Marker', cursive;
+}
+.hidden {
+	display:none;
+}
+
+#gif{
+filter: invert(1);
+width:20%;
+margin:36px;
+}
+
+.transition {
+	background-color:black;
+}
+
+#mimosa{
+font-family: 'Rock Salt', cursive;
+}
+
+.text{
+	margin: 30px;
+}
+
+.title{
+	margin-bottom:40px;
+}
+
+#taxi{
+	font-family: 'Archivo Black', sans-serif;
+}
+
+
+#suzane{
+	font-family: 'Archivo Black', sans-serif;
+}

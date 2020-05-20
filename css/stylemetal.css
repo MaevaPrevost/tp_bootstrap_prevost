@@ -1,0 +1,68 @@
+html{
+	overflow-x : hidden;
+}
+body {
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+ .navbar {
+	background-image: linear-gradient(to right, #434343 0%, black 100%) !important;
+}
+
+.carousel-inner img{
+	width:100%;
+}
+
+
+
+.carousel-caption h5 {
+	font-size:400%;
+	color:white;
+}
+
+.carousel-caption p {
+	font-size:200%;
+	color:white;
+}
+
+.vignettes {
+	width:100%;
+	margin:0px;
+}
+
+.row_gauche {
+	margin-left:50px;
+}
+
+.row_droite {
+	margin-right:50px;
+}
+
+.row {
+	color:white;
+}
+
+.text_col{
+	margin-top: 60px;
+}
+
+.text_col h2{
+	margin-bottom: 60px;
+}
+
+#description{
+	opacity: 70%;
+	margin:20px;
+}
+
+.text_col figcaption{
+	margin: 20px;
+	opacity:80%;
+	font-size:120%;
+	font-style: italic;
+}
+
+#gif{
+width:20%;
+margin:36px;
+}
